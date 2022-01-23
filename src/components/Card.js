@@ -29,7 +29,7 @@ const Card = ({item, index, handleDelete}) => {
                 <input type='button' value="👍" className='item-likes' onClick={() => toggleLike('like')} />
                 <input type='button' value="👎" className='item-likes' onClick={() => toggleLike('dislike')} />
             </div>
-            <button className='del-btn' onClick={() => handleDelete(index)}>Supprimer la fiche de film</button>
+            <button className='del-btn' onClick={() => handleDelete(index)}>❌</button>
 
         </div>
     )

@@ -6,7 +6,7 @@
     margin: 60px;
     justify-self: center;
     text-align: center;
-    background-color: rgb(226, 235, 238);
+    background-color: rgb(255, 255, 255);
 }
 
 .item-title {
@@ -49,7 +49,10 @@
 }
 
 .del-btn {
+    border: none;
     margin-top: 50px;
+    cursor: pointer;
+    
 }
 
 .item-likes {
